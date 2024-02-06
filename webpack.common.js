@@ -7,7 +7,7 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const getHtmlPlugins = (chunks) => {
   return chunks.map(chunk => (
     new HtmlWebpackPlugin({
-      title: `React Practice - ${chunk}`,
+      title: `React Boilerplate - ${chunk}`,
       filename: `${chunk}/${chunk}.html`,
       chunks: [chunk],
     })
