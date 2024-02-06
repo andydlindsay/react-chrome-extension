@@ -21,4 +21,4 @@
 * Add static assets (images, icons, etc) to `src/static`
 * The React and SCSS files for the popup and options pages are in `src/popup` and `src/options` respectively
 * Add background workers to `src/background/background.js`. These scripts will run in the background while the extension popup is closed.
-* Add webpage interaction to `src/contentScript/contentScript.js`. This script will have access to the DOM and will be able to read information and manipulate the webpage.
+* Add webpage interaction to `src/content-script/content-script.js`. This script will have access to the DOM and will be able to read information and manipulate the webpage.
