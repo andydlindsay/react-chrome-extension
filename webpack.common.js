@@ -72,8 +72,8 @@ const config = {
           to: path.resolve('dist/background'),
         },
         {
-          from: path.resolve('src/contentScript'),
-          to: path.resolve('dist/contentScript'),
+          from: path.resolve('src/content-script'),
+          to: path.resolve('dist/content-script'),
         },
       ]
     }),
