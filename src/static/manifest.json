@@ -1,10 +1,10 @@
 {
   "manifest_version": 3,
-  "name": "React Demo",
+  "name": "React Chrome Extension",
   "version": "1.0.0",
-  "description": "Demo React inside a Chrome extension",
+  "description": "Chrome extension boilerplate using React",
   "action": {
-    "default_title": "React Practice",
+    "default_title": "React Chrome Extension",
     "default_popup": "popup/popup.html",
     "default_icon": "images/react-icon.png"
   },
@@ -22,5 +22,13 @@
       "matches": ["<all_urls>"],
       "js": ["contentScript/contentScript.js"]
     }
+  ],
+  "permissions": [
+    "alarms",
+    "contextMenus",
+    "notifications",
+    "search",
+    "storage",
+    "tabs"
   ]
 }
