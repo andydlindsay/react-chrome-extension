@@ -14,8 +14,8 @@
 * Remove content and/or background scripts if not needed.
 
 ### Scripts
-* `start`: Run webpack in watch mode and rebuild the app when files are saved. Note: some changes will require the extension to be reloaded in Chrome.
-* `build`: Build the project to the `dist` directory.
+* `start`: Run webpack in watch mode using the development configuration. Rebuilds the app when files are saved. Note: some changes will require the extension to be reloaded in Chrome.
+* `build`: Build the project to the `dist` directory using the production configuration.
 
 ### Customizing the Extension
 * Add static assets (images, icons, etc) to `src/static`
